@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Adam Zikry — Software Developer, Video Editor & Animator</title>
+
+  <meta name="description" content="Portfolio of Adam Zikry, a Computer Science graduate working across software development, game development, video editing and animation." />
+  <meta name="author" content="Adam Zikry" />
+  <meta name="robots" content="index, follow" />
+
+  <link rel="canonical" href="https://YOURDOMAIN.com/" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="icon" href="/favicon/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
+  <link rel="apple-touch-icon" href="/favicon/apple-touch-icon.png" />
+
+  <link rel="manifest" href="/site.webmanifest" />
+  <meta name="theme-color" content="#0b0b10" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Adam Zikry — Developer, Editor, Animator" />
+  <meta property="og:description" content="Computer Science graduate working across software development, game development, video editing and animation." />
+  <meta property="og:url" content="https://YOURDOMAIN.com/" />
+  <meta property="og:image" content="https://YOURDOMAIN.com/assets/images/og-image.jpg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Adam Zikry — Developer, Editor, Animator" />
+  <meta name="twitter:description" content="Software developer, game developer, video editor and animator." />
+  <meta name="twitter:image" content="https://YOURDOMAIN.com/assets/images/og-image.jpg" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="nav">
+    <a href="#top" class="nav__logo" aria-label="Adam Zikry home">AZ<span>.</span></a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <section class="hero" id="about">
+      <div class="hero__glow" aria-hidden="true"></div>
+
+      <div class="container hero__inner">
+        <p class="eyebrow reveal">Computer Science Graduate</p>
+
+        <div class="hero__grid reveal">
+              <div class="hero__text-content">
+                <h1 class="hero__title">
+                  Hi, I'm <span class="grad">Adam Zikry</span>.<br />
+                  I build, cut and animate.
+                </h1>
+
+                <p class="hero__lead">
+                  I'm a Computer Science graduate who lives at the crossroads of code and creativity.
+                  I write clean, reliable software, develop games, edit stories that hold attention,
+                  and bring ideas to life through motion.
+                </p>
+              </div>
+
+              <!-- Profile Picture Container -->
+              <div class="hero__image-wrapper">
+                <img src="assets/images/dp.png" alt="Adam Zikry" class="hero__profile-img" />
+              </div>
+            </div>
+
+        <ul class="strengths reveal">
+          <li>
+            <h3>Problem solver</h3>
+            <p>Strong CS foundations: I break messy problems into simple, shippable pieces.</p>
+          </li>
+
+          <li>
+            <h3>Visual storyteller</h3>
+            <p>Pacing, rhythm and sound that turn raw footage into content people finish watching.</p>
+          </li>
+
+          <li>
+            <h3>Detail-obsessed</h3>
+            <p>From frame-perfect timing to pixel-perfect interfaces, the small things matter.</p>
+          </li>
+        </ul>
+
+        <div class="hero__cta reveal">
+          <a href="#work" class="btn btn--primary">See my work</a>
+          <a href="#contact" class="btn btn--ghost">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="work" id="work">
+      <div class="container">
+        <p class="eyebrow reveal">Selected work</p>
+        <h2 class="section-title reveal">Three crafts, one creator</h2>
+
+        <div class="tabs reveal" role="tablist" aria-label="Work categories">
+          <button class="tab is-active" role="tab" id="tab-dev" aria-controls="panel-dev" aria-selected="true" data-target="dev">
+            <span class="tab__num">01</span>
+            <span class="tab__label">Software Developer</span>
+          </button>
+
+          <button class="tab" role="tab" id="tab-edit" aria-controls="panel-edit" aria-selected="false" data-target="edit" tabindex="-1">
+            <span class="tab__num">02</span>
+            <span class="tab__label">Video Editor</span>
+          </button>
+
+          <button class="tab" role="tab" id="tab-anim" aria-controls="panel-anim" aria-selected="false" data-target="anim" tabindex="-1">
+            <span class="tab__num">03</span>
+            <span class="tab__label">Animator</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="panel is-active" id="panel-dev" role="tabpanel" aria-labelledby="tab-dev" data-key="dev">
+        <div class="container panel__intro">
+          <h3>Software that's built to last</h3>
+          <p>
+            Web apps, tools, games and systems written with care. I focus on clean architecture,
+            readable code and interfaces that feel effortless to use.
+          </p>
+
+          <ul class="chips">
+            <li>JavaScript</li>
+            <li>HTML &amp; CSS</li>
+            <li>Python</li>
+            <li>C#</li>
+            <li>Unity</li>
+            <li>Problem solving</li>
+            <li>UI engineering</li>
+          </ul>
+        </div>
+
+        <div class="carousel">
+          <button class="carousel__arrow carousel__arrow--prev" aria-label="Previous project">‹</button>
+          <div class="carousel__track" tabindex="0" aria-label="Software projects"></div>
+          <button class="carousel__arrow carousel__arrow--next" aria-label="Next project">›</button>
+        </div>
+
+        <p class="carousel__title" aria-live="polite"></p>
+      </div>
+
+      <div class="panel" id="panel-edit" role="tabpanel" aria-labelledby="tab-edit" data-key="edit" hidden>
+        <div class="container panel__intro">
+          <h3>Edits with rhythm and intent</h3>
+          <p>
+            Short-form, social and promo edits cut to hook viewers in the first second and
+            keep them to the last. Sharp pacing, clean sound, strong visual flow.
+          </p>
+
+          <ul class="chips">
+            <li>Pacing &amp; story</li>
+            <li>Color grading</li>
+            <li>Sound design</li>
+            <li>Motion titles</li>
+            <li>Short-form</li>
+          </ul>
+        </div>
+
+        <div class="carousel">
+          <button class="carousel__arrow carousel__arrow--prev" aria-label="Previous video">‹</button>
+          <div class="carousel__track" tabindex="0" aria-label="Video edits"></div>
+          <button class="carousel__arrow carousel__arrow--next" aria-label="Next video">›</button>
+        </div>
+
+        <p class="carousel__title" aria-live="polite"></p>
+      </div>
+
+      <div class="panel" id="panel-anim" role="tabpanel" aria-labelledby="tab-anim" data-key="anim" hidden>
+        <div class="container panel__intro">
+          <h3>Motion that brings ideas to life</h3>
+          <p>
+            Characters, explainers and motion graphics with expressive timing and a strong
+            sense of style, from first sketch to final render.
+          </p>
+
+          <ul class="chips">
+            <li>2D animation</li>
+            <li>Motion graphics</li>
+            <li>Character work</li>
+            <li>Storyboarding</li>
+            <li>Timing &amp; easing</li>
+          </ul>
+        </div>
+
+        <div class="carousel">
+          <button class="carousel__arrow carousel__arrow--prev" aria-label="Previous animation">‹</button>
+          <div class="carousel__track" tabindex="0" aria-label="Animations"></div>
+          <button class="carousel__arrow carousel__arrow--next" aria-label="Next animation">›</button>
+        </div>
+
+        <p class="carousel__title" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container contact__inner">
+        <p class="eyebrow reveal">Contact</p>
+
+        <h2 class="section-title reveal">Let's make something together</h2>
+
+        <p class="contact__lead reveal">
+          Open to full-time roles, freelance edits and animation projects.
+          Reach out on any of the channels below.
+        </p>
+
+        <ul class="socials reveal">
+          <li>
+            <a href="mailto:admzkry9@gmail.com">
+              <span>Email</span>
+              <em>admzkry9@gmail.com</em>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.linkedin.com/in/adam-zikry-mohd-abdul-radzi-0a4101192/" target="_blank" rel="noopener">
+              <span>LinkedIn</span>
+              <em>/in/adam-zikry-mohd-abdul-radzi</em>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/adamzkry" target="_blank" rel="noopener">
+              <span>Instagram</span>
+              <em>@adamzkry</em>
+            </a>
+          </li>
+        </ul>
+
+        <div class="hero__cta reveal" style="justify-content:center;">
+          <a href="resume/CV_Adam Zikry_Junior Developer.pdf" class="btn btn--primary" target="_blank" rel="noopener">
+            Software Developer Resume
+          </a>
+          <a href="resume/CV_Adam Zikry_Video Editor.pdf" class="btn btn--primary" target="_blank" rel="noopener">
+            Video Editor Resume
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Adam Zikry. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

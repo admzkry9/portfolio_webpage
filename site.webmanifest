@@ -1,0 +1,21 @@
+{
+  "name": "Adam Zikry — Software Developer, Video Editor & Animator",
+  "short_name": "Adam Zikry",
+  "description": "Portfolio of Adam Zikry, Computer Science graduate, software developer, game developer, video editor and animator.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0b10",
+  "theme_color": "#0b0b10",
+  "icons": [
+    {
+      "src": "/favicon/favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
